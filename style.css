@@ -1,0 +1,432 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4e4b4b; 
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.logo{
+  margin-left:6rem;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  padding: 1rem 12rem;
+  margin-top: 2rem;
+}
+.top-nav{
+  display:flex;
+  justify-content: space-between;
+  color:rgba(35, 99, 35, 0.819);
+
+
+}
+.top-nav li{
+  list-style-type: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.top-nav li a{
+  color:rgba(35, 99, 35, 0.819);
+  font-weight: 500;
+}
+.header span{
+color:rgb(228, 198, 27);
+}
+.header h2{
+  color:rgba(35, 99, 35, 0.819)
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#hero{
+  display:flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+
+}
+.hero-container{
+  margin-top: 1rem;
+  }
+
+
+.hero-container h1 {
+   font-size: 1.5rem;
+   margin-bottom: 0.5rem;
+   line-height: 1;
+}
+
+.hero-container p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+
+}
+#about h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgba(35, 99, 35, 0.819);
+
+}
+
+
+.hero-image img{
+  width: 350px;
+  height: 350px;
+  border-radius: 24px;
+
+}
+.hero-container span{
+  color:rgba(35, 99, 35, 0.819) ;
+}
+.hero-container .btn{
+background-color:rgba(35, 99, 35, 0.819) ;
+border: solid 1px rgba(35, 99, 35, 0.819) ;
+border-radius: 20px;
+padding: 10px 1rem;
+color: #fff;
+font-size: 1rem;
+margin-top: 1rem;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+svg{
+  cursor: pointer;
+  
+}
+.scroll-down{
+  margin-top: 3rem;
+}
+.scroll-down a{
+  text-decoration: none;
+  color:rgba(35, 99, 35, 0.819);
+  margin-bottom: 1rem;
+
+}
+#about{
+  display: flex;
+  margin-top: 4rem;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.about-container{
+  margin-right: 6rem;
+}
+
+.about-container h1 {
+  font-size: 2rem;
+
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  color:rgba(35, 99, 35, 0.819) ;
+
+}
+
+.about-container p {
+ font-size: 1.2rem;
+ font-weight: 300;
+ margin-bottom: 1rem;
+
+ line-height: 1.2;
+ /* justify-content: left; */
+ 
+}
+.about-container .btn, .contact-page .btn{
+  background-color:rgba(35, 99, 35, 0.819) ;
+  border: solid 1px rgba(35, 99, 35, 0.819) ;
+  border-radius: 20px;
+  padding: 10px 2rem;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  .about-image img{
+    width: 250px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-left: 1rem;
+
+  
+  }
+  
+
+ 
+.skills{
+  margin-top: 4rem;
+  padding: 2rem
+}
+
+.skills h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgba(35, 99, 35, 0.819);
+
+}
+.skills p {
+  font-size: 1.5rem;
+  margin-top:2rem;
+  color: rgba(35, 99, 35, 0.819);
+
+}
+
+.skill-set table{
+margin: 2rem;
+}
+
+.skill-set table tbody{
+  margin: 2rem;
+}
+
+
+
+.skill-set td, .skill-set th {
+  border: 1px solid #ddd;
+  padding: 8px 2rem;
+}
+
+.skill-set tr:nth-child(even){background-color: #f2f2f2;}
+
+.skill-set tr:hover {background-color:rgba(35, 99, 35, 0.819); color: #fff;}
+
+.skill-set th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.experience{
+ 
+  padding: 2rem
+}
+
+.experience h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgba(35, 99, 35, 0.819);
+
+}
+
+.experience p {
+  font-size: 1.5rem;
+  margin-top:2rem;
+  color: rgba(35, 99, 35, 0.819);
+
+}
+
+.pro-experience table{
+margin: 2rem;
+}
+
+.pro-experience table tbody{
+  margin: 2rem;
+}
+
+
+.pro-experience td, .pro-experience th {
+  border: 1px solid #ddd;
+  padding: 8px 2rem;
+}
+
+.pro-experience tr:nth-child(even){background-color: #f2f2f2;}
+
+.pro-experience tr:hover {background-color:rgba(35, 99, 35, 0.819); color: #fff;}
+
+.pro-experience th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+.contact{
+  padding: 2rem
+}
+
+.contact-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgba(35, 99, 35, 0.819);
+
+}
+
+.contact p {
+  font-size: 1.5rem;
+  margin-top:2rem;
+  color: rgba(35, 99, 35, 0.819);
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 330px;
+  margin: 0 auto;
+  padding: 1rem 4rem;
+}
+
+input{
+  width: 70%;
+  border: 2px solid  rgba(35, 99, 35, 0.819);
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+textarea{
+  width: 70%;
+  border:  2px solid  rgba(35, 99, 35, 0.819);
+
+}
+
+textarea::placeholder{
+  color: black;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 1.2em;
+}
+
+input:hover,
+textarea:hover{
+ outline: none;
+ border-color: #2c4a3a;
+}
+
+.contact-page button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem auto;
+}
+
+.contact-page .btn{
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .logo{
+    margin-left:1rem;
+  }
+
+  .header{
+  
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .logo{
+    margin-left:1rem;
+  }
+
+  .logo span{
+    display: none;
+  }
+  .header{
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+
+  #hero{
+    display:flex;
+  flex-direction: column-reverse;
+    margin-top: 4rem;
+  }
+
+  #about{
+
+    margin-top: 2rem;
+ flex-direction: column-reverse;
+    width: 100%;
+  
+  }
+
+
+  
+.about-container{
+  margin-right: 0;
+}
+
+.about-container h1 {
+  font-size: 1.5rem;
+}
+
+.about-container p {
+ font-size: 1rem;
+}
+
+  .about-image img{
+    width: 80vw;
+    height: 100%;
+  
+  }
+
+  .skills, .experience {
+    padding: 1rem;
+}
+
+.skills h1, .experience h1 {
+    font-size: 1.2rem;
+}
+
+.skills p, .experience p {
+    font-size: 0.9rem;
+}
+
+.skill-set td, .skill-set th, .pro-experience td, .pro-experience th {
+    padding: 0.3rem;
+}
+
+input{
+  width: 100%;
+  
+}
+
+textarea{
+  width: 100%;
+ 
+
+}
+
+
+}
+
