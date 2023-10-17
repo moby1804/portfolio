@@ -89,7 +89,7 @@
                     ></path></svg
                 ></span>
               </button>
-              <!-- Scroll Down -->
+              <!-- Down Scroller Start -->
               <div class="scroll-down">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@
             </div>
           </div>
           <div class="hero-image">
-            <img src="./images/My Headshot (1).png" />
+            <img src="./images/My Headshot (1).png" alt="Moby Profile Image" />
           </div>
         </section>
       </div>
@@ -161,7 +161,11 @@
             </div>
           </div>
           <div class="about-image">
-            <img src="./images/africa-1.png" alt="" class="about" />
+            <img
+              src="./images/africa-1.png"
+              alt="About Content Image design"
+              class="about"
+            />
           </div>
         </section>
       </div>
@@ -202,6 +206,7 @@
       <!-- End of Skills Section -->
       <!-- Experience section -->
       <section class="experience container" id="experience">
+        <!-- h2 tag might be better here than h1 tag: note for future refactoring -->
         <h1>Experience</h1>
         <p>Here's a snapshot of my career journey</p>
         <div class="pro-experience">
@@ -243,7 +248,12 @@
             <p>I'll love to connect with you!</p>
           </div>
 
-          <form class="form">
+          <form
+            action="https://formspree.io/f/mnqklwln"
+            method="POST"
+            class="form"
+            id="form"
+          >
             <input
               type="text"
               name="Full Name"
@@ -263,8 +273,9 @@
               cols="30"
               rows="10"
             ></textarea>
+
+            <button type="submit" class="btn">Submit</button>
           </form>
-          <button class="btn">Submit</button>
         </div>
       </section>
       <!-- End Contact Section -->
